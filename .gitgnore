@@ -1,0 +1,49 @@
+# Entorno Virtual local (No subir las librerías instaladas pesadas)
+venv/
+.venv/
+env/
+ENV/
+
+# Python (Archivos compilados y temporales)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook (Archivos temporales de ejecución)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Nota: Deja la línea de abajo comentada para SÍ subir tus archivos .ipynb de las actividades
+# *.ipynb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Sistemas Operativos (Basura del sistema)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
