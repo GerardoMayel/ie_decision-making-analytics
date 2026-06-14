@@ -1,8 +1,18 @@
-# Entorno Virtual local (No subir las librerías instaladas pesadas)
+# Entornos virtuales
 venv/
 .venv/
 env/
 ENV/
+
+# Jupyter Notebooks temporales
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# VS Code y sistema
+.vscode/
+.DS_Store
+.history/
+
 
 # Python (Archivos compilados y temporales)
 __pycache__/
